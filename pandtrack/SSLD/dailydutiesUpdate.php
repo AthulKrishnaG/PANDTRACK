@@ -92,20 +92,20 @@
 					   <div class='form-group row'>
                           <label class='col-md-3 label-control' for='projectinput3'>Day and Date</label>
                           <div class='col-md-9'>
-                            <input type='date' id='doctor_duty_day_and_date	'class='form-control' placeholder='date' name='doctor_duty_day_and_date'>
+                            <input type='date' id='doctor_duty_day_and_date	'class='form-control' value='$doctor_duty_day_and_date'  name='doctor_duty_day_and_date'>
                           </div>
                         </div>
  
                         <div class='form-group row'>
                           <label class='col-md-3 label-control' for='projectinput3'>Daily Duty Doctor FromTime</label>
                           <div class='col-md-9'>
-                            <input type='time' id='doctor_duty_fromtime	'class='form-control' placeholder='time' name='doctor_duty_fromtime'>
+                            <input type='time' id='doctor_duty_fromtime	'class='form-control' value='$doctor_duty_fromtime'  name='doctor_duty_fromtime'>
                           </div>
                         </div>
 						 <div class='form-group row'>
                           <label class='col-md-3 label-control' for='projectinput3'>Daily Duty Doctor ToTime</label>
                           <div class='col-md-9'>
-                            <input type='time' id='doctor_duty_totime	'class='form-control' placeholder='date' name='doctor_duty_totime'>
+                            <input type='time' id='doctor_duty_totime	'class='form-control'  value='$doctor_duty_totime' name='doctor_duty_totime'>
                           </div>
                         </div>
                       </div>";
@@ -118,6 +118,9 @@
  
                        
                       <div class="form-actions center">
+                        <button type="button" id="btnbk" name="btnbk"  class="btn btn-light" onclick="history.back();">
+                           <i class="la la-arrow-left"></i> Back
+                        </button>
                         <button type="reset" class="btn btn-warning mr-1">
                           <i class="ft-x"></i> Cancel
                         </button>
