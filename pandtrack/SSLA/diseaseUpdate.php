@@ -112,6 +112,9 @@
 					  
                        
                       <div class="form-actions center">
+                        <button type="button" id="btnbk" name="btnbk"  class="btn btn-light" onclick="history.back();">
+                           <i class="la la-arrow-left"></i> Back
+                        </button>
                         <button type="reset" class="btn btn-warning mr-1">
                           <i class="ft-x"></i> Cancel
                         </button>
