@@ -12,54 +12,53 @@
               <li class="active"><a href="index.php">Home</a>
               </li>
              
-              </li>
-              <li><a>Clinical Details</a>
+              <li><a href="#">Source Info</a>
                 <ul class="dropdown">
-                  
-                  <li><a href="symptomsView.php">Symptoms<span class="label label-success">New</span></a>
-                    
-                  </li>
-              <!--    <li><a href="medicineView.php">Medicines</a>  -->
-                    
-                  </li>
-                  <li><a href="sourceView.php">Source</a>
-                    
-                  </li>
-                  
+                  <li><a href="sourceAdd.php">Add </a></li>
+                  <li><a href="sourceView.php">View</a></li>
+                </ul>
+              </li>
+			  <li><a href="#">Contact Info</a>
+                <ul class="dropdown">
+                  <li><a href="contactAdd.php">Add </a></li>
+                  <li><a href="contactView.php">View</a></li>
+                </ul>
+              </li>
+			  <li><a href="#">Primary Contact Info</a>
+                <ul class="dropdown">
+                  <li><a href="primaryAdd.php">Add </a></li>
+                  <li><a href="primaryView.php">View</a></li>
+                </ul>
+              </li>
+			  <li><a href="#">Medicine History</a> 
+        <ul class="dropdown">
                  
-                  
+                  <li><a href="historyView.php">View</a></li>
+                </ul> 
 
+              </li>
+              <li><a href="#">More</a>
+                <ul class="dropdown">
+                  <li><a href="symptomsView.php">Symptoms</a></li>
+               <!--   <li><a href="medicineView.php">Medicine</a></li>  -->
+                  <li><a href="dischargeView.php">Discharge</a></li>
+                  <li><a href="dailydutyView.php">Dailyduty</a></li>
+                  <li><a href="hotspotView.php">Hotspot</a></li>
                  
                 </ul>
               </li>
-              <li><a href="hotspotView.php">HotspotArea<span class="label label-warning">New</span></a>
               
-
-              </li>
-              <li><a>ContactTable</a>
-                <ul class="dropdown">
-                <li><a href="contactView.php">Contact</a></li>
-                  <li><a href="primaryView.php">Primarycontact</a></li>
+              <li><a href="#home"><?php echo $uName;  ?></a>
+			  <ul class="dropdown">
                   
-                </ul>
-              </li>
-			  <li><a>Historytable</a>
-                <ul class="dropdown">
-                  <li><a href="historyView.php">Historyreport</a></li>
+                  <li><a href="profile.php">Profile </a>
+                    
+                  </li>
+                  <li><a href="logout.php">Logout</a>
+                    
+                  </li>
                   
-                </ul>
-              </li>
-              <li><a>DoctorTable</a>
-                <ul class="dropdown">
-                     <li><a href="dailydutyView.php">DailyDuty</a></li>
-
-                </ul>
-              </li>
-              <li><a>DischargeTable</a>
-                <ul class="dropdown">
-                  <li><a href="dischargeView.php">Discharge Report</a></li>
-                  
-                </ul>
+               
               </li>
               
             </ul>
