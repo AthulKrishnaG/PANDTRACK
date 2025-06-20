@@ -1,2 +1,2 @@
 # PANDTRACK
-A Pandamic Tracking System
+A Pandemic Tracking System
