@@ -97,7 +97,7 @@ $stmt->close();
     </div>
 
     <!-- side menu start -->
-    <?php include("header2.php"); ?>
+    <?php include("header.php"); ?>
     <!-- side menu end -->
 
     <!-- Start main-content -->
@@ -108,7 +108,8 @@ $stmt->close();
           <div class="section-content text-center">
             <div class="row">
               <div class="col-md-6 col-md-offset-3 text-center">
-                <h2 class="text-theme-colored font-36">My Profile</h2>
+                <br>  <br>
+                <h2 class="text-theme-colored font-26">My Profile</h2>
                 <ol class="breadcrumb text-center mt-10 white">
                   <li><a href="index.php">Home</a></li>
                   <li class="active">Profile</li>
